@@ -4,23 +4,60 @@
     <head>
         <title>Meu Formulário</title>
         <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="Css/estilo.css" >
     
     </head>
 
     <body>
     
+<!--Formulário-->
+        
         <form method="post" action="formulario.php">
+        
+<!--Tabela-->
             
-            <table></table>
+            <table class="tabela">
             
-            <label for="nome">Nome</label>
-            <input type="text" name="nome"/>
+            <tr>
+                <td>
+                    <label for="nome">Nome</label>
+                </td>
+                
+                <td>
+                    <input type="text" name="nome"/>
+                </td> 
+                
+            </tr>
             
-            <label for="senha">Senha</label>
-            <input type="password" name="senha"/>
+            <tr>
+                <td>
+                    <label for="senha">Senha</label>
+                </td>
+                
+                <td>
+                    <input type="password" name="senha"/>
+                </td>
+            </tr>
+                
+            <tr>
+                <td>
+                    <label for="sexo">Sexo</label>
+                </td> 
+                
+                <td>
+                    <select name="sexo">
+                        <option value="null">     </option>
+                        <option value="M">Masculino</option>
+                        <option value="F">Feminino</option>
+                    </select>
+                </td>    
+                 
+            </tr>
             
-            
+            </table>
+
         </form>
     
     </body>
+    
 </html>
