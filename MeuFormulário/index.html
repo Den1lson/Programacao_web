@@ -31,29 +31,61 @@
             
             <tr>
                 <td>
-                    <label for="senha">Senha</label>
+                    <label for="endereco">Endereço</label>
                 </td>
                 
                 <td>
-                    <input type="password" name="senha"/>
+                    <input type="text" name="endereco"/>
                 </td>
+            </tr>
+                
+<!--Campo de opções-->
+                
+            <tr>
+                <td>
+                    <label for="estado">Estado</label>
+                </td> 
+                
+                <td>
+                    <select name="estado">
+                        <option value="null"> </option>
+                        <option value="pb">PB</option>
+                        <option value="pe">PE</option>
+                        <option value="pr">PR</option>
+                        <option value="rn">RN</option>
+                    </select>
+                </td>    
+                
+            </tr>
+                
+<!--Check box-->
+            
+            <tr>
+                <td>
+                    
+                    <input type="radio" name="masculino"> Masculino
+                    <input type="radio" name="feminino"> Feminino
+                
+                </td>    
+            
             </tr>
                 
             <tr>
                 <td>
-                    <label for="sexo">Sexo</label>
-                </td> 
+                    <label for="materias">Matérias de interesse</label>
+                </td>
                 
                 <td>
-                    <select name="sexo">
-                        <option value="null">     </option>
-                        <option value="M">Masculino</option>
-                        <option value="F">Feminino</option>
-                    </select>
-                </td>    
-                 
-            </tr>
-            
+                    
+                    <input type="checkbox" name="materias" value="mat">Matemática 
+                    <input type="checkbox" name="materias" value="java"> Java
+                    <input type="checkbox" name="materias" value="css"> CSS
+                    <input type="checkbox" name="materias" value="html"> HTML
+                
+                </td>
+            </tr> 
+         
+                
             </table>
 
         </form>
