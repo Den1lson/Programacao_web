@@ -1,0 +1,25 @@
+header{
+    
+    border: 2px solid silver;
+    
+    
+}
+
+main{
+    
+    border: 2px solid black;
+    
+}
+
+footer{
+    
+    border: 2px solid blue;
+    
+    
+}
+
+
+nav#menu ul{
+    
+    list-style: none;
+}
